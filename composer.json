@@ -1,0 +1,20 @@
+{
+    "name": "stepotronic/rssphp.net-composer-wrapper",
+    "description": "Composer package that gives you access to the dom based rss parser from rssphp.net.",
+    "keywords": ["php", "rss", "dom"],
+    "homepage" : "http://rssphp.net/",
+    "type": "library",
+    "authors": [
+        {
+            "name": "rssphp.net",
+            "email": "support@rssphp.net"
+        }
+    ],
+    "require": {
+        "php": ">=5.0.0"
+    },
+    "autoload": {
+	"classmap": ["/src/"],
+    }
+    
+}
